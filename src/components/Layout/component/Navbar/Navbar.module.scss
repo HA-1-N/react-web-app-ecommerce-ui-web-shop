@@ -1,0 +1,135 @@
+.nav-container {
+    background-color: var(--white-color);
+}
+
+.navbar-item-link {
+    display: inline-block;
+}
+
+.navbar-image {
+    height: 75px;
+}
+
+.icon-link-dropdown {
+    margin-left: 0.6rem;
+}
+
+.navbar-item:first-child {
+    margin-left: 0rem;
+}
+
+.navbar-item {
+    position: relative;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+.navbar-item:hover .dropdown-menu-list {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.navbar-item:hover .dropdown-menu-list-mega {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+ul .dropdown-menu-list {
+    box-shadow: 0px 0px 15px 0px rgba($color: #000000, $alpha: 0.1);
+    background-color: var(--bs-white);
+    width: 250px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out 0.1s;
+    transition: all 0.2s ease-in-out 0.1s;
+    padding: 0;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    position: absolute;
+    list-style: none;
+    top: 60px;
+    left: 0;
+}
+
+.nav-item {
+    position: relative;
+    padding: 0.6rem;
+}
+
+.nav-item-link {
+    padding: 13px 20px 11px;
+    margin: 0;
+    position: relative;
+    color: #666666;
+    border-bottom: 1px dashed #e5e5e5;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.others-option {
+    display: flex;
+}
+
+.option-item:first-child {
+    margin-left: 0;
+}
+
+.option-item {
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    margin-left: 25px;
+}
+
+.wishlist-btn {
+    font-size: 2rem;
+    position: relative;
+    line-height: 1;
+    // top: 1px;
+}
+
+.option-item-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black-color);
+    margin: 0;
+    outline: 0;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.option-item-link:hover {
+    color: #f79837;
+}
+
+.option-item-search:hover {
+    color: #646464;
+    cursor: pointer;
+}
+
+.quantity-cart {
+    position: absolute;
+    right: -4px;
+    top: -4px;
+    width: 14px;
+    height: 14px;
+    text-align: center;
+    line-height: 13.9px;
+    border-radius: 50%;
+    color: var(--bs-white);
+    background-color: var(--bs-orange);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+ul .dropdown-menu-list-mega {
+    padding: 2.6rem;
+    width: 1000px;
+    left: -150px;
+}

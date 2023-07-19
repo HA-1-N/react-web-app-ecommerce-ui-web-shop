@@ -1,0 +1,27 @@
+.copyright-one {
+    padding: 15px 0;
+    background-color: var(--bs-black);
+    border: 1px solid #ededed;
+}
+
+.copyright-left h6 {
+    color: var(--bs-white);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.copyright-left h6 span {
+    color: #f79837;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.copyright-right {
+    text-align: right;
+}
+
+.copyright-right .image_payment {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,53 @@
+.offer-time-one {
+    background-image: url('https://andit.co/projects/html/andshop/andshop_frontend/assets/img/offer/t-shirt.png');
+    background-size: cover;
+    background-position: center;
+    padding: 145px 0;
+}
+
+.count_down {
+    display: flex;
+}
+
+.offer-timer-text {
+    padding-left: 60px;
+}
+
+.offer-timer-text-title {
+    font-size: 40px !important;
+    line-height: 55px !important;
+    text-transform: uppercase;
+    letter-spacing: 2px !important;
+    font-weight: 500 !important;
+    color: var(--bs-black);
+}
+
+.offer-timer-text-params {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: var(--bs-black);
+    font-weight: 400 !important;
+    margin-bottom: 0;
+}
+
+.offer-timer-view {
+    padding: 16px 36px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    display: inline-block !important;
+    border-radius: 0 !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    transition: all 0.3s ease-in-out 0.1s !important;
+    outline: none !important;
+}
+
+.offer-timer-view:hover {
+    background-color: var(--bs-white) !important;
+    color: var(--bs-black) !important;
+}

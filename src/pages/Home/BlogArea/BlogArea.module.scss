@@ -1,0 +1,120 @@
+.blog-area-one {
+    padding: 100px 0;
+}
+
+.blog-area-one .blog-area-title {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-size: 34px;
+    position: relative;
+    line-height: 40px !important;
+    color: var(--bs-color);
+    letter-spacing: 1px;
+}
+
+.blog-area-para {
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #777c87;
+    font-weight: 400 !important;
+    padding-top: 10px;
+}
+
+// Image
+
+.blog-one-item {
+    overflow: hidden;
+}
+
+.img-zoom-hover:hover .blog-one-img .link .image {
+    transform: scale(1.1) rotate(1deg);
+}
+
+.blog-one-img {
+    overflow: hidden;
+}
+
+.blog-one-item .blog-one-img .link {
+    color: var(--bs-black);
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0.1s;
+    outline: 0 !important;
+}
+
+.blog-one-item .blog-one-img .link .image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    transform-origin: 65% 75%;
+    transition: transform 1s, filter 0.5s ease-out;
+    background-size: cover;
+}
+
+// Context
+.blog-text {
+    padding-top: 15px;
+}
+
+.date-area {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: var(--bs-black);
+}
+
+.date-area .date-area-link {
+    font-size: 1.6rem;
+    color: #f79837;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out 0.1s;
+    outline: 0 !important;
+    display: inline-block;
+}
+
+.blog-text .heading {
+    padding-top: 15px;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--bs-black);
+    margin: 0;
+}
+
+.blog-text .heading .heading-link {
+    color: var(--bs-black);
+    margin: 0;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0.1s;
+    outline: 0 !important;
+}
+
+.blog-text .heading .heading-link:hover {
+    color: #f79837;
+}
+
+.blog-text .para {
+    padding-top: 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777c87;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.btn-read-more {
+    margin-top: 1.8rem !important;
+    background-color: var(--bs-white) !important;
+    color: var(--bs-black) !important;
+    font-size: 1.6rem !important;
+    padding: 0.4rem 2rem !important;
+    border: 1px solid #222226 !important;
+    text-transform: none !important;
+}
+
+.btn-read-more:hover {
+    color: #f79837 !important;
+    border: 1px solid #f79837 !important;
+}

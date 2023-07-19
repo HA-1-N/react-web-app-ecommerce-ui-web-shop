@@ -1,0 +1,53 @@
+.instagram-area-one {
+}
+
+.instagram-area-title {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-size: 34px;
+    position: relative;
+    line-height: 40px !important;
+    color: var(--bs-color);
+    letter-spacing: 1px;
+}
+
+.instagram-area-para {
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #777c87;
+    font-weight: 400 !important;
+    padding-top: 10px;
+}
+
+.instagram-post {
+    position: relative;
+}
+
+.instagram-post .instagram-icon {
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bs-white);
+    opacity: 0;
+}
+
+.instagram-post .instagram-icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    opacity: 1;
+}
+
+.instagram-icon:hover {
+    opacity: 0.5;
+}
+
+.slider-show {
+    width: 100%;
+    will-change: transform;
+    transition: transform 1s ease;
+}
